@@ -251,9 +251,10 @@ namespace RemindMe
             });
         }
 
-        private static double CalcRemainingPercent(long duration, long elapsed)
+        private static int CalcRemainingPercent(long duration, long elapsed)
         {
-            return (1 - (((double)elapsed) / duration)) * 100;
+            var percent = (1 - (((double)elapsed) / duration)) * 100;
+            return (int) percent;
         }
 
         private void PushBlankTimer(TimeSpan timeSpan)
