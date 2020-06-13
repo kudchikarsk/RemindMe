@@ -1,0 +1,122 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    android:background="?attr/colorBackground"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectVoiceOption"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        >
+        <ImageButton
+            android:src="@drawable/select_voice_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/more"
+            android:background="@color/transparent"
+        />
+        <TextView
+            android:text="Select voice"
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:textColor="@color/whiteTransparent"
+            android:id="@+id/textView2"
+            app:autoSizeTextType="uniform"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+        />
+    </LinearLayout>
+
+    <ImageButton
+        android:src="@drawable/more_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moreOption"
+        android:background="@color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+        <LinearLayout
+            style="@style/moreOptionListItem"
+            android:id="@+id/waterOption"
+            >
+            <ImageView
+                style="@style/moreOptionImage"
+                android:src="@drawable/water_glass"
+                android:id="@+id/imageView1"               
+               />
+            <TextView
+                style="@style/moreOptionText"
+                android:text="WATER BREAK"
+                android:id="@+id/textView1"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/moreOptionListItem"
+            android:id="@+id/coffeeOption"
+            >
+            <ImageView
+                style="@style/moreOptionImage"
+                android:src="@drawable/coffee_cup"
+                android:id="@+id/imageView1"
+               />
+            <TextView
+                style="@style/moreOptionText"
+                android:text="COFFEE BREAK"
+                android:id="@+id/textView1"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/moreOptionListItem"
+            android:id="@+id/officeOption"
+            >
+            <ImageView
+                style="@style/moreOptionImage"
+                android:src="@drawable/clock"
+                android:id="@+id/imageView1"
+               />
+            <TextView
+                style="@style/moreOptionText"
+                android:text="OFFICE BREAK"
+                android:id="@+id/textView1"                
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/moreOptionListItem"
+            android:id="@+id/beerOption"
+            >
+            <ImageView
+                style="@style/moreOptionImage"
+                android:src="@drawable/beer"
+                android:id="@+id/imageView1"
+               />
+            <TextView
+                style="@style/moreOptionText"
+                android:text="BEAR BREAK"
+                android:id="@+id/textView1"                
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

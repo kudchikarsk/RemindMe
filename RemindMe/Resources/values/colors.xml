@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#2c3e50</color>
+  <color name="colorPrimaryDark">#1B3147</color>
+  <color name="colorAccent">#3498db</color>
+  <color name="transparent">#00FFFFFF</color>
+  <color name="white">#FFFFFF</color>
+  <color name="whiteTransparent">#b3ffffff</color>
+  <color name="green">#00ff00</color>
+  
+  <color name="blueDark">#1E384C</color>
+  <color name="coffeeDark">#392a2c</color>
+  <color name="beerDark">#5a3900</color>
+  <color name="clockDark">#012f35</color>
+
+  <color name="blue">#2C7FBE</color>
+  <color name="coffee">#7a6057</color>
+  <color name="beer">#ffffff</color>
+  <color name="clock">#028090</color>
+
+  <color name="blueLight">#32BAFA</color>
+  <color name="coffeeLight">#BF9E87</color>
+  <color name="beerLight">#E18E02</color>
+  <color name="clockLight">#02C39A</color>
+</resources>

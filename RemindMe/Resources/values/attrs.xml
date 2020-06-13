@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <attr name="colorBackground" format="reference|color" />
+  <attr name="colorPrimary" format="reference|color" />
+  <attr name="colorPrimaryDark" format="reference|color" />
+  <attr name="resetText" format="reference|string" />
+  <attr name="warningMsg" format="reference|string" />
+  <attr name="timeIsUpMsg" format="reference|string" />
+</resources>

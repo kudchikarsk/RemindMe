@@ -1,0 +1,58 @@
+﻿<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frameLayout1"
+    android:padding="0dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_marginLeft="36dp"
+        >
+        <ImageView
+            android:src="@drawable/green_tick"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/tickImage"
+            android:layout_gravity="center_vertical"
+            android:translationX="-128dp"/>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingVertical="16dp"
+        android:paddingLeft="32dp">
+        
+
+        <TextView
+            android:text="English (Australia)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="42dp"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/whiteTransparent"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="en"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteTransparent"
+            android:id="@+id/textView2"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"/>
+    </LinearLayout >
+    
+    </LinearLayout>
+
+</FrameLayout>

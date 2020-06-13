@@ -1,0 +1,135 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    android:id="@+id/rootLayout"
+    >
+    <RelativeLayout
+        android:minHeight="128dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timerLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp">
+        <TextView
+            android:text="00:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timerNext"
+            style="@style/timer_view" />
+        <TextView
+            android:text="00:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timerCurr"
+            style="@style/timer_view"/>
+        <TextView
+            android:text="00:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timerPrev"
+            style="@style/timer_view"/>
+    </RelativeLayout>
+    <ImageButton
+        android:src="@drawable/more_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/more"
+        android:background="@color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"/>
+
+    <ImageView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/water"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="?attr/colorPrimary"
+        android:gravity="bottom"
+        android:translationY="@dimen/water_translation_y"/>
+
+    <ImageView
+        android:src="@drawable/wave_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wave_height"
+        android:scaleType="fitXY"
+        android:id="@+id/wave1"
+        android:translationY="@dimen/wave_translation_y" />
+
+    <ImageView
+        android:src="@drawable/wave_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wave_height"
+        android:scaleType="fitXY"
+        android:id="@+id/wave2"
+        android:translationY="@dimen/wave_translation_y" />
+
+    <ImageView
+        android:src="@drawable/wave_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wave_height"
+        android:scaleType="fitXY"
+        android:id="@+id/wave3"
+        android:translationY="@dimen/wave_translation_y"/>
+
+    <ImageView
+        android:src="@drawable/wave_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wave_height"
+        android:scaleType="fitXY"
+        android:id="@+id/wave4"
+        android:translationY="@dimen/wave_translation_y" />
+
+    <Button
+        android:text="?attr/resetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/outline_button"
+        android:textColor="@color/outline_button_blue"
+        android:textSize="24dp"        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/remainingPercentTxt"
+            android:textSize="128dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/whiteTransparent"
+            android:fontFamily="sans-serif-thin"
+        />
+
+        <TextView
+            android:text="%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="64dp"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/whiteTransparent"
+            android:fontFamily="sans-serif-thin"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

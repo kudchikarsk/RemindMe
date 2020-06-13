@@ -1,0 +1,16 @@
+﻿<vector xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:height="120dp"
+    android:width="120dp"    
+    android:viewportWidth="50"
+    android:viewportHeight="50"
+>
+   <path
+        android:name="draw1"
+        android:fillColor="@color/white"
+        android:pathData="M49.42,21.07a9.69,9.69,0,0,0-2.17-6.55,10.16,10.16,0,0,0-7.08-3.12c-.14-2.47-.38-4-.38-4H36.58S42,39.54,20.43,39.56C-1.87,39.57,4.16,7.37,4.16,7.37H1.07S-4.29,43,20.43,43c9.31,0,14.35-5.06,17-11.37C40.47,31.4,49.43,29.84,49.42,21.07Zm-11,7.82a49,49,0,0,0,1.81-14.83,8.13,8.13,0,0,1,5.52,2.4,6.76,6.76,0,0,1,1.49,4.63C47.29,26.71,41.58,28.39,38.45,28.89Z"/>
+
+  <path
+        android:name="draw2"
+        android:fillColor="@color/white"
+        android:pathData="M7.07,11.94H33.73s3.72,23.65-13.3,23.65S7.07,11.94,7.07,11.94Z"/>
+</vector>

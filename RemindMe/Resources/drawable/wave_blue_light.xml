@@ -1,0 +1,12 @@
+﻿<!-- res/drawable/wave.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:height="120dp"
+    android:width="120dp"    
+    android:viewportWidth="350"
+    android:viewportHeight="32"
+>
+   <path
+        android:name="draw"
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M350,17.32V32H0V17.32C116.56,65.94,175-39.51,350,17.32Z"/>
+</vector>

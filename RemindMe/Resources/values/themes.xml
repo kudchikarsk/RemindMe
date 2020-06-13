@@ -1,0 +1,51 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+
+  <style name="BlueTheme" parent="AppTheme">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/blueLight</item>
+    <item name="colorPrimaryDark">@color/blue</item>
+    <item name="colorBackground">@color/blueDark</item>
+    <item name="resetText">DRINK</item>
+    <item name="warningMsg">Remember to drink</item>
+    <item name="timeIsUpMsg">Time\'s up. You really need to drink now</item>
+  </style>
+
+  <style name="CoffeeTheme" parent="AppTheme">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/coffeeLight</item>
+    <item name="colorPrimaryDark">@color/coffee</item>
+    <item name="colorBackground">@color/coffeeDark</item>
+    <item name="resetText">DRINK COFFEE</item>
+    <item name="warningMsg">It\'s almost coffee time.</item>
+    <item name="timeIsUpMsg">Time\'s up. Let\'s take a coffee break!</item>
+  </style>
+
+  <style name="ClockTheme" parent="AppTheme">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/clockLight</item>
+    <item name="colorPrimaryDark">@color/clock</item>
+    <item name="colorBackground">@color/clockDark</item>
+    <item name="resetText">TAKE A BREAK</item>
+    <item name="warningMsg">It is time to rest your eyes soon!</item>
+    <item name="timeIsUpMsg">Time\'s up. Now, it\'s really time to rest your eyes!</item>
+  </style>
+
+  <style name="BeerTheme" parent="AppTheme">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/beerLight</item>
+    <item name="colorPrimaryDark">@color/beer</item>
+    <item name="colorBackground">@color/beerDark</item>
+    <item name="resetText">HAVE A BEER</item>
+    <item name="warningMsg">I know this sounds scary, but it\'s almost time for another beer</item>
+    <item name="timeIsUpMsg">It\'s been while since the last beer!</item>
+  </style>
+
+</resources>

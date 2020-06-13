@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="wave_height">32dp</dimen>
+  <dimen name="wave_translation_y">96dp</dimen>
+  <dimen name="water_translation_y">127dp</dimen>
+  <dimen name="outline_btn_radius">64dp</dimen>
+  <dimen name="outline_btn_stroke">1dp</dimen>
+  <dimen name="outline_btn_padding_horizontal">8dp</dimen>
+  <dimen name="outline_btn_padding_vertical">12dp</dimen>
+</resources>
