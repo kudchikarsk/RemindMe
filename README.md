@@ -8,7 +8,7 @@ All the animations/transitions you see on the app are made using [Android Animat
 
 You can download the application from Playstore: https://play.google.com/store/apps/details?id=com.kudchikarsk.remindme
 
-![](screen-shot1.png)
+![](./Screenshots/screen-shot1.png)
 
 
 
